@@ -1,30 +1,13 @@
-# Lift Log — Free setup on your iPhone (about 15 minutes, one time)
+# Lift Log — Free setup on your iPhone
 
-This puts the app on a free GitHub Pages link. You pay nothing now or later. Your workouts save on your phone.
+All 10 files sit in one folder (no subfolders), so you can upload them in one step.
 
-## 1. Make a free GitHub account
-Go to https://github.com/signup and create an account (free plan).
+1. Create a free GitHub account at https://github.com/signup.
+2. Click + > New repository, name it `liftlog`, keep it Public, then click Create repository.
+3. Click "uploading an existing file", select all 10 files in the unzipped folder, drag them in, then click Commit changes.
+4. Go to Settings > Pages, choose Branch `main` and `/ (root)`, then click Save. After 1–2 minutes your link appears: https://YOUR-USERNAME.github.io/liftlog/
+5. On your iPhone, open the link in Safari, tap Share > Add to Home Screen > Add.
+6. Open the app from the icon. To share with your wife, text her the link.
+7. Back up monthly: More > Export backup.
 
-## 2. Create the app's home
-1. Sign in, tap **+** (top right) > **New repository**.
-2. Name it `liftlog`. Leave it **Public**. Tap **Create repository**.
-3. On the next page tap **uploading an existing file**.
-4. Unzip `liftlog-phone.zip` on a computer and drag **everything inside the folder** (index.html, app.js, icons folder, vendor folder, etc.) into the upload box. Tap **Commit changes**.
-
-## 3. Turn on the free website
-1. In the repository, go to **Settings > Pages**.
-2. Under **Branch**, pick `main` and `/ (root)`, then **Save**.
-3. Wait 1–2 minutes. Your link appears at the top: `https://YOUR-USERNAME.github.io/liftlog/`
-
-## 4. Put it on your home screen
-1. Open that link in **Safari** on your iPhone.
-2. Tap **Share** (square with up arrow) > **Add to Home Screen** > **Add**.
-3. Open Lift Log from the new icon. It runs full screen and works without signal.
-
-## 5. Share with your wife
-Text her the same link and have her do step 4. Her phone keeps its own separate plan, logs, and weigh-ins.
-
-## Keeping your data safe
-- Data stays on the phone that logged it. Open the app at least once every few weeks (iPhone keeps home-screen app data as long as you use it).
-- Once a month: **More > Export backup** and save the file to Files or iCloud Drive. **Import backup** restores it on any phone.
-- Updating the app later: upload new files to the same repository. Your saved data is not touched.
+Files: index.html, app.js, styles.css, storage.js, sw.js, manifest.json, chart.umd.min.js, icon-180.png, icon-192.png, icon-512.png
